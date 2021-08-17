@@ -1,0 +1,33 @@
+/* _quizz.css */
+
+.qsm-quiz-container{
+  width:90%;
+  left:5%;
+  position:relative;
+}
+
+
+
+
+.qmn_question_answer_correct{
+  background-color: $correct-bg;
+}
+
+.qmn_question_answer_incorrect{
+  background-color: $incorrect-bg;
+}
+
+.qmn_question_answer{
+  margin-top:10px;
+}
+
+
+.quizz{
+
+  &--message{
+    width:80%;
+    left:10%;
+    position:relative;
+  }
+
+}

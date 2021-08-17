@@ -1,0 +1,66 @@
+.front-listing{
+  margin-top:$section-top-margin;
+
+  &--title{
+    font-size:2.5rem;
+    color:$primary-color;
+    text-align:center;
+  }
+
+  &--container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    max-width: 1400px;
+
+    @mixin atMedium{
+      display:flex;
+      flex-direction:row;
+      justify-content: space-between;
+    }
+
+  }
+
+  &--topic{
+    margin-top:1.5rem;
+    text-align:center;
+
+    @mixin atMedium{
+      width:15%;
+    }
+
+    &__headline{
+
+    }
+
+  }
+
+  &--svg{
+    height:50px;
+    width:50px;
+    display:inline-block;
+    background-size:contain;
+    filter:$third-svg;
+
+
+    &__grammar{
+      background-image:url('/wp-content/themes/tefl-theme/inc/svgs/grammar.svg');
+    }
+
+    &__analysis{
+      background-image:url('/wp-content/themes/tefl-theme/inc/svgs/analysis.svg');
+    }
+
+    &__classroom{
+      background-image:url('/wp-content/themes/tefl-theme/inc/svgs/classroom.svg');
+    }
+
+    &__planning{
+      background-image:url('/wp-content/themes/tefl-theme/inc/svgs/plan.svg');
+    }
+
+    &__assesment{
+      background-image:url('/wp-content/themes/tefl-theme/inc/svgs/scores.svg');
+    }
+  }
+}

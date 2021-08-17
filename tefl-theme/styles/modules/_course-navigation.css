@@ -1,0 +1,57 @@
+.course-navigation{
+
+  width:80%;
+  position:relative;
+  left:10%;
+  margin-top:20px;
+  margin-bottom:40px;
+
+  @mixin atMedium{
+    width:70%;
+    left:15%;
+  }
+
+  &--gap{
+    height:40px;
+    width:100%;
+  }
+
+  &--section{
+     width:100%;
+     background-color:#006699;
+     margin-bottom:20px;
+     border-radius: 5px;
+     height:3rem;
+     font-size:1rem;
+     position:relative;
+     color:white;
+
+     @mixin atMedium{
+       font-size:1.4rem;
+       height:4rem;
+     }
+
+     &:hover{
+       background-color:#4dd2ff;
+       color:black;
+     }
+
+     a{
+       position:absolute;
+       text-decoration:none;
+       cursor:pointer;
+       top:50%;
+       transform:translateY(-50%);
+       width:100%;
+       text-align: center;
+       color:white;
+     }
+
+     a:hover{
+       color:black;
+     }
+
+  }
+
+
+}

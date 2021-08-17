@@ -1,0 +1,37 @@
+.front-price{
+  font-size:2.5rem;
+  margin-top:4rem;
+  text-align: center;
+  width:80%;
+  color:$primary-color;
+  position:relative;
+  left:10%;
+
+&__container{
+  display:none;
+}
+
+&__regular{
+  font-size:3.5rem;
+  color:$third-text;
+}
+
+&__new{}
+
+  &__old{
+    text-decoration: line-through;
+  }
+
+
+    &__sale{
+      font-size:3.5rem;
+      color:$third-text;
+    }
+
+
+      &__discount{
+        font-size:3.5rem;
+        color:$third-text;
+      }
+
+}

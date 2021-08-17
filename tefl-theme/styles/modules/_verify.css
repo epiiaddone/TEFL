@@ -1,0 +1,54 @@
+.verify{
+
+    &--title{
+      text-align: center;
+      font-size:2rem;
+      margin-top:1rem;
+
+      @mixin atMedium{
+        font-size:3rem;
+        margin-top:3rem;
+      }
+    }
+
+
+  &--target{
+    display:none;
+
+    &--text{
+      text-align: center;
+      margin-top:0.5rem;
+      margin-bottom:0.5rem;
+
+      &__strong{
+        font-weight:bold;
+      }
+    }
+  }
+
+  &--invalid{
+    display:none;
+    text-align: center;
+    color:red;
+    font-size:2rem;
+  }
+
+  &--container{
+    margin-left: auto;
+    margin-right:auto;
+    margin-top:3rem;
+    margin-bottom:3rem;
+    width:fit-content;
+  }
+
+  &--button{
+    margin-top:1rem;
+    width:fit-content;
+    margin-left: auto;
+    margin-right:auto;
+
+     button{
+      font-size:1rem;
+    }
+  }
+}

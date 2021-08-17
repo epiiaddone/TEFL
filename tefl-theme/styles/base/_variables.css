@@ -1,0 +1,30 @@
+/*colors*/
+$primary-color: black;
+$secondary-text:#666666;
+$third-text:#00aaff;
+
+
+
+
+/*bg-colors*/
+$primary-bg:blue;
+$secondary-bg:#cce6ff;
+$correct-bg: #ccffcc;
+$incorrect-bg: #ffb3b3;
+$placeholder-bg:yellow;
+$header-bg:white;
+$third-bg:#00aaff;
+
+
+/*svg-colors: changes hex to filter: made using https://codepen.io/sosuke/pen/Pjoqqp*/
+/*#cce6ff*/
+$secondary-svg:invert(83%) sepia(13%) saturate(1215%) hue-rotate(188deg) brightness(105%) contrast(107%);
+/*#00aaff*/
+$third-svg:invert(72%) sepia(56%) saturate(7499%) hue-rotate(173deg) brightness(103%) contrast(105%);
+
+/*heights*/
+$header-height:60px;
+$footer-height:50px;
+
+/*margins*/
+$section-top-margin:7rem;

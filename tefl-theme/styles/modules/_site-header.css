@@ -1,0 +1,71 @@
+.site-header{
+  height:$header-height;
+  width:100%;
+  background-color:$header-bg;
+  position:fixed;
+  z-index:1000;
+  border-bottom:1px solid #adadad;
+
+  &__verify{
+    position:absolute;
+    bottom:-30px;
+    right:20px;
+
+    a{
+      color:white;
+    }
+  }
+
+  &__logo{
+    position: absolute;
+    left:10px;
+    top:50%;
+    height:50px;
+    color:black;
+    transform:translateY(-50%);
+    text-transform: uppercase;
+    font-size:0.8rem;
+
+    @mixin atSmall{
+      font-size:1rem;
+    }
+
+    span{
+      font-weight:bold;
+      font-size:2rem;
+    }
+  }
+
+  &__logo:visited{
+    color:black;
+  }
+
+
+  &__access-buttons{
+    position:absolute;
+    top:20px;
+    right:20px;
+
+
+    a{
+      text-decoration: none;
+      border-radius: 2px;
+      border: 1px solid #adadad;
+      font-size:15px;
+      padding:5px;
+      padding-left:10px;
+      padding-right:10px;
+      height:30px;
+      border-radius:4px;
+      color:$primary-color;
+      cursor:pointer;
+    }
+
+    a:hover{
+      background-color:$secondary-bg;
+    }
+
+  }
+
+
+}

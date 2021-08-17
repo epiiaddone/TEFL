@@ -1,0 +1,59 @@
+.diss{
+
+text-align:center;
+font-size:4rem;
+display:flex;
+flex-direction:column;
+justify-content:space-around;
+padding:10px;
+
+@mixin atMedium{
+  font-size:6rem;
+}
+
+&--after{
+  display:none;
+
+  &__disabled{
+    display:block;
+  }
+}
+
+&--dust{
+  position: absolute;
+  z-index:3;
+}
+
+&--mask{
+height:100%;
+width:100%;
+background-color:white;
+z-index:2;
+position:absolute;
+top:0px;
+}
+
+&--gap{
+height:10vh;
+width:30%;
+z-index:3;
+margin:20px;
+}
+
+&--container {
+  margin-top:20vh;
+  padding-top:20vh;
+display:inline;
+  z-index:3;
+}
+
+&--loading{
+  color:#adadad;
+  font-size:3rem;
+
+  @mixin atMedium{
+    font-size:4rem;
+  }
+}
+
+}

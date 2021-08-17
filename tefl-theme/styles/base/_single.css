@@ -1,0 +1,113 @@
+.single{
+
+  background-image:url('/wp-content/themes/tefl-theme/inc/images/ocean--small-min.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height:calc(100vh - $header-height);
+  display:inline-block;
+  width:100%;
+
+  &--wrapper{
+    @mixin atMedium{
+      display:flex;
+      flex-direction:row-reverse;
+      width:90%;
+      position:relative;
+      left:5%;
+      justify-content: space-between;
+      margin-top:5rem;
+      align-items:baseline;
+    }
+  }
+
+  &--gap{
+    height:6rem;
+    width:100%;
+  }
+
+
+  &--return{
+    margin-top:0.5rem;
+    margin-bottom:1rem;
+    margin-left:0.5rem;
+
+    a{
+      text-decoration:underline;
+      color:white;
+    }
+  }
+
+  &--container{
+    width:80%;
+    left:10%;
+    background-color: white;
+    padding:1rem;
+    position: relative;
+
+    @mixin atMedium{
+      width:60%;
+      left:0px;
+      max-width:1000px;
+    }
+  }
+
+  &--title{
+    font-weight:bold;
+    text-align:center;
+  }
+
+  &--content{
+
+  }
+
+  &--table{
+    background-color:white;
+    width:80%;
+    left:10%;
+    position:relative;
+    margin-top:2rem;
+    border-radius: 5px;
+    padding-bottom:1rem;
+
+    @mixin atMedium{
+      width:35%;
+      left:0%;
+      padding-right:1rem;
+      margin-top:0;
+      margin-right:5rem;
+    }
+
+
+    @mixin atLarge{
+      width:30%;
+      max-width:400px;
+    }
+
+    &__title{
+      font-weight:bold;
+      text-align:center;
+      padding:1rem;
+    }
+
+    &__link{
+      text-decoration: none;
+      color:black;
+      cursor:pointer;
+    }
+
+    &__link--active{
+      color:red;
+    }
+
+    ol{
+      margin:0;
+    }
+
+    li{
+      padding:0.3rem;
+    }
+
+  }
+
+}

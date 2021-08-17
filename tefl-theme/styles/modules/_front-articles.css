@@ -1,0 +1,54 @@
+.front-articles{
+    padding-top:3rem;
+
+    &--container{
+      margin-left: auto;
+      margin-right: auto;
+      width: 90%;
+      max-width: 1400px;
+
+      @mixin atMedium{
+        display:flex;
+        flex-direction:row;
+        justify-content:space-between;
+      }
+
+    }
+
+  &--section{
+    text-align: center;
+    width:100%;
+    margin-bottom:1rem;
+
+    @mixin atMedium{
+      width:30%;
+      margin-bottom:0rem;
+    }
+
+    &__title{
+      font-size:1.5rem;
+      color:black;
+      width:80%;
+      left:10%;
+      position:relative;
+      margin-bottom:1rem;
+
+      @mixin atMedium{
+        height:110px;
+      }
+
+      @mixin atLarge{
+        height:80px;
+      }
+    }
+
+    &__subtitle{
+      font-size:1rem;
+      color:$secondary-text;
+      width:80%;
+      position:relative;
+      left:10%;
+    }
+  }
+
+}

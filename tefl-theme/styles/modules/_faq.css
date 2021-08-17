@@ -1,0 +1,41 @@
+.faq{
+
+
+&--gap{
+  height:4rem;
+}
+
+
+&--section{
+  width:80%;
+  margin-left:10%;
+
+  @mixin atMedium{
+    width:60%;
+    margin-left:20%;
+  }
+
+
+
+&--question{
+ font-size: 20px;
+ font-weight:bold;
+ margin-top:1.5rem;
+ margin-bottom:0.5rem;
+
+}
+
+
+
+&--answer{
+font-weight:normal;
+font-size:16px;
+
+
+}
+
+}
+
+
+
+}

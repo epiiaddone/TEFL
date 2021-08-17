@@ -1,0 +1,43 @@
+.title-strip{
+
+  &--banner{
+    position:relative;
+    width:100%;
+    text-align: center;
+    height:200px;
+    margin-bottom:3rem;
+
+    @mixin atMedium{
+      height:300px;
+    }
+
+    img{
+      height:100%;
+      width:100%;
+    }
+
+
+    &--title{
+      font-size: 3rem;
+      text-align: center;
+      width:100%;
+      position:absolute;
+      top:50%;
+      transform:translateY(-50%);
+
+      &__light{
+        color:white;
+      }
+    }
+
+    &__single-pic{
+      background-size: cover;
+      background-position: center bottom;
+
+    }
+
+
+  }
+
+
+}
